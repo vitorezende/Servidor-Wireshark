@@ -1,0 +1,218 @@
+
+
+@charset "utf-8";
+
+
+* {
+margin : 0;
+padding : 0;
+font-family:Arial, Helvetica, sans-serif;
+list-style:none;
+text-decoration:none;
+outline:none;
+border:none;
+text-align:center
+}
+h1{
+  color:#556B2F;
+  margin-bottom : 10px
+}
+h2{
+  color : #008B45;
+  margim-bottom : 20px;
+  
+}
+.divclear{clear:both;}
+
+body{background:#E8E8E8; height: 100%;}
+	
+/* cabecalho */
+#header-index{
+
+	height:125px; position: absolute; top: 0; width: 100%; 
+	border-bottom: 1px solid #fff;
+       
+}
+
+#header-page{
+
+	height:125px; width: 100%; 
+	border-bottom: 1px solid #fff;
+	position: absolute; top: 0;
+}
+
+#header-content{margin:0 auto; width:1180px;  background:url("images/logo.png") no-repeat;  height: 100px;
+                border: 0px #000 solid;
+
+}
+#header-content img{margin-top:8px; float:left;}
+
+
+#container{width: 1180px; margin: 0 auto; padding: 20px 0px; margin-top:300px;margin-bottom: 229px; }
+
+form#form_busca input[type=text]{border: 1px solid #DBDBEA;
+	float: left;
+	font-size: 18px;
+	height: 31px;
+	padding-left: 5px;
+	width: 462px;}
+	
+form#form_busca input[type=button]{    
+	background: url("images/busca.png") no-repeat scroll 5px 6px transparent;
+	border: medium none;
+	cursor: pointer;
+	float: right;
+	height: 33px;
+	margin-right: 0;
+	margin-top: -33px;
+	outline: medium none;
+	padding: 0;
+	width: 35px;}
+
+
+/* menu */
+#menu{width:1080px; margin:0 auto; text-align: right;}
+#menu ul li{display:inline; padding:0px 15px;}
+#menu ul li.first{padding-left:0px;}
+#menu ul li a{color:#0c3378; font-size:18px; font-weight:bold; font-family: 'Open Sans', sans-serif;}
+#menu ul li a:hover{color:#FFBF00;}
+
+
+
+/* Rodape */
+#footer-index{height:180px;  bottom: 0px; width: 100%;clear: both;
+/* Old browsers */
+
+background: -moz-linear-gradient(top,  #0193d9 0%, #0c3378 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0193d9), color-stop(100%,#0c3378)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #0193d9 0%,#0c3378 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #0193d9 0%,#0c3378 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #0193d9 0%,#0c3378 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #0193d9 0%,#0c3378 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0193d9', endColorstr='#0c3378',GradientType=0 ); /* IE6-9 */
+border-top:4px solid #DB2100;
+
+}
+
+#footer-page{height:180px; width: 100%; 
+/* Old browsers */
+background: -moz-linear-gradient(top,  #0193d9 0%, #0c3378 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0193d9), color-stop(100%,#0c3378)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #0193d9 0%,#0c3378 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #0193d9 0%,#0c3378 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #0193d9 0%,#0c3378 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #0193d9 0%,#0c3378 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0193d9', endColorstr='#0c3378',GradientType=0 ); /* IE6-9 */
+border-top:4px solid #DB2100;}
+
+#footer-content{width: 1180px; margin: 0 auto;margin-top: 30px;  margin-left: 19%;}
+
+.marcas{
+  margin-left: 16%;	
+    text-align: center;
+    background: #000;
+   
+}
+
+/*.marcas {
+	
+	height: 93px;
+	margin: 6px;
+	width: 93px;}
+	
+.marcas  a{
+	
+	height: 100%;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 100%;}	*/
+
+ .gmail{background:url(images/gmail.png) no-repeat; background-position:50% 50%;
+    margin-left: 3px;    
+    float:left;
+    width: 93px;
+    height: 93px;
+ 
+ }
+.facebook{background:url(images/facebook.png) no-repeat; background-position:50% 50%;
+    margin-left: 3px;    
+    float:left;
+    width: 93px;
+    height: 93px;}
+ .twitter{background:url(images/twitter.png) no-repeat; background-position:50% 50%;
+    margin-left: 3px;    
+    float:left;
+    width: 93px;
+    height: 93px;}
+ .youtube{background:url(images/youtube.png) no-repeat; background-position:50% 50%;
+    margin-left: 3px;    
+    float:left;
+    width: 93px;
+    height: 93px;}
+ .hotmail{background:url(images/hotmail.png) no-repeat; background-position:50% 50%;
+    margin-left: 3px;    
+    float:left;
+    width: 93px;
+    height: 93px;}
+ .g1{background:url(images/g1.png) no-repeat; background-position:50% 50%;
+    margin-left: 3px;    
+    float:left;
+    width: 93px;
+    height: 93px;}
+ .uol{background:url(images/uol.png) no-repeat; background-position:50% 50%;
+    margin-left: 3px;    
+    float:left;
+    width: 93px;
+    height: 93px;}
+ .terra{background:url(images/terra.png) no-repeat; background-position:50% 50%;
+    margin-left: 3px;    
+    float:left;
+    width: 93px;
+    height: 93px;
+ z-index: 6;}
+
+
+
+#sobre{float:left; width:696px;}
+#sobre h1{color:#0E2751; margin:15px 0px;}
+#sobre h3{color:#999; margin-bottom:5px;}
+#sobre p{color:#111111;}
+#barra_lateral{width:354px; float:right;}
+#barra_lateral h1{color:#0F2851; padding:6px 0px; font-size: 20px;}
+#barra_lateral p{color:#202020;}
+#telefone h1{color:#0F2851;}
+#localizacao iframe{border:1px solid #d1d1d1;}
+
+
+#video_intitucional ul li{padding:10px; border-top:1px dotted #999;}
+
+#contato{background:url(imagens/contato.jpg) no-repeat; height:500px; padding:15px;}
+#contato label{font-size:15px; color:#202020;}
+#contato input[type=button]{font-size:15px; color:#fff; background:#0F2851; padding:7px 30px; font-weight:bold; cursor:pointer; }
+
+#contato input[type=text]{width:302px; background:#fff; height:32px; padding:0px 5px; font-size:16px;}
+#contato textarea{width:302px; background:#fff; padding:5px 5px;}
+#contato small{color:#8C8C8C; float: left;
+	margin-top: 34px;}
+	
+	
+#informacoes{float:left; width:300px;}
+#telefone-email{float:right; width:300px;}	
+.anuncio{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.box{
+    margin-left: 8px;
+    background-color: #000;
+    float:left;
+    width: 186px;
+    height: 151px;
+    border: 3px solid #8B4789;
+}
+.box img{
+    width: 185px;
+    height: 150px;
+    border: 1px solid #000;
+}

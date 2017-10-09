@@ -1,0 +1,14 @@
+#Tutorial para Rodar Servidor HTTP
+#Autores: Pablo Souza, Vitor Rezende
+#Primeiro Trabalho de Redes 
+
+Passos para execucao:
+
+Passo 1 : Execute o Arquivo cliente/gera_links.py como super usuario - 
+                                                    varre o logo do wireshark -> 'captura_wireshark.txt' com a funcao geralinks() e gera uma lista de cliente/img/links.txt de imagens no diretorio cliente/img;
+                                                    a funcao baixaImagens() faz o download das imagens para o diretorio cliente/img;
+Passo 2 : Execute o arquivo serv/servidor.py;
+
+Passo 3 : Execute o arquivo cliente/cliente.v13.py  e aguarde enviar todas as imagens para o Servidor inclusive a lista de links cliente/img/links.txt, e todos os dados transferidos ficaram na pasta serv/img/;
+
+Passo 4 : Acesse o navegador localhost:5007  e veja as imagens.
